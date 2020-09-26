@@ -16,6 +16,11 @@ footer{
     color: #86868b;
     align-items: flex-end;
 }
+.banerbox{
+    width: 100%;
+    height: 46px;
+    background-color: #fff;
+}
 #box{
     width: 100%;
 }
@@ -237,6 +242,11 @@ img {vertical-align: middle;}
   max-width: 2000px;
   position: relative;
   margin: auto;
+  
+  
+}
+.mySlides{
+    
 }
 
 /* Caption text */
