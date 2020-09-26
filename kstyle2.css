@@ -6,6 +6,7 @@
     margin: 0%;
     padding: 0%;
 }
+
 a:link { color: #86868b; text-decoration: none;}
 a:visited { color: #86868b; text-decoration: none;}
 a:hover { color: black; text-decoration: underline;}
@@ -26,14 +27,13 @@ footer{
 }
 .firstbox{
     border: 1px solid black;
-    text-align: left;
-    padding-left:22px;
-    padding-right: 12px;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
     height: 44px;
     position: fixed;
     width: 100%;
     z-index: 3;
+   
 }
 .firstbaner{
     text-align: center;
@@ -46,6 +46,7 @@ footer{
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 10px;
+    padding-left: 30px;
     display: inline-block;
 }
 
@@ -62,7 +63,8 @@ input[id="menuicon"]+label{
     z-index: 5;
     float: right;
     margin-top: 10px;
-    margin-right: 0px;
+    margin-right: 15px;
+    
 }
 input[id="menuicon"]+label span{
     display: block;
@@ -253,7 +255,7 @@ img {vertical-align: middle;}
 .text {
   color: #000000;
   font-size: 15px;
-  padding: 8px 12px;
+  
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -264,7 +266,7 @@ img {vertical-align: middle;}
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  
   position: absolute;
   top: 0;
 }
